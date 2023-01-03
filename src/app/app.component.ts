@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intiapp';
+  footerTitle = 'Sígueme en redes sociales para saber más de mi y mi trabajo :)';
+
 }
