@@ -18,6 +18,8 @@ import { SlideComponent } from './components/slide/slide.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { SocialComponent } from './components/social/social.component';
 import { CurvedRingCylindricalComponent } from './components/curved-ring-cylindrical/curved-ring-cylindrical.component';
+import { Page404Component } from './components/page404/page404.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { CurvedRingCylindricalComponent } from './components/curved-ring-cylindr
     SlideComponent,
     ContactFormComponent,
     SocialComponent,
-    CurvedRingCylindricalComponent
+    CurvedRingCylindricalComponent,
+    Page404Component,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
